@@ -64,6 +64,7 @@ export default function Sizes() {
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSizeId(event.target.value)
+    console.log(event.target.value)
   }
 
   const handleBack = () => {
@@ -93,7 +94,7 @@ export default function Sizes() {
               id={id}
               name="sizes"
               onChange={handleChange}
-              value={id}
+              value={flavours}
               checked={sizeId === id}
             />
             <label htmlFor={id}>

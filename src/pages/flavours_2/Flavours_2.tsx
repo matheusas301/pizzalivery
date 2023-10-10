@@ -1,3 +1,4 @@
+
 import { useContext, useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { Button } from "../../components/button/Button"
@@ -20,7 +21,7 @@ import {
   FlavourCardPrice,
   FlavourCardTitle,
   FlavourContentWrapper,
-} from "./Flavours.styles"
+} from "../flavours/Flavours.styles"
 import { Title } from "../../components/title/Title"
 
 export default function Flavours() {
